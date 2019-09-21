@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  background-color: #1d1d1d;
+}
+.App {
+  background-color: #1d1d1d !important;
+  color: #919191 !important;
+  border-bottom: 1px solid #2f2f2f;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: "Roboto", sans-serif;
+}
+.nav-link {
+  color: #919191 !important;
+}
+#showcase {
+  background: url(https://img.yts.lt/assets/images/movies/dark_phoenix_2019/background.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+#showcase .content-box {
+  padding-top: 140px;
+  width: 66%;
+  margin: 0 auto;
+}
+.content-box h1 {
+  color: #fff;
+}
+.content-box p {
+  color: #fff;
+  width: 86%;
+  text-align: center;
+  line-height: 21px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.card {
+  border: 5px solid #fff;
+}
+.card-hover {
+  overflow: hidden;
+  cursor: pointer;
+}
+.card-hover:hover img {
+  transition: all 2s;
+  transform: scale(1.1);
+}
+.torrent {
+  background-color: rgba(27, 27, 35, 0.4);
+  padding: 5px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 5px;
+  margin-left: 20px;
+}
